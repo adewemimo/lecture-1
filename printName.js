@@ -3,7 +3,8 @@
 const username = process.argv[2];
 
 function printName(){
-    console.log("Welcome to WebDevCore " + username + "!");
+    const message = "Welcome to WebDevCore " + username + "!"
+    console.log(message);
 }
 
 printName();
